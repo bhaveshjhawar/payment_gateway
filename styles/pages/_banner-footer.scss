@@ -338,15 +338,15 @@
               width: 8px;
               margin-top: 0px;
             }
-            &::before {
-              position: absolute;
-              content: "";
-              width: 20px;
-              height: 20px;
-              left: -24px;
-              background-image: url(/img/flag-icon.png);
-              background-repeat: no-repeat;
-            }
+            // &::before {
+            //   position: absolute;
+            //   content: "";
+            //   // width: 20px;
+            //   // height: 20px;
+            //   // left: -24px;
+            //   // background-image: url(/img/flag-icon.png);
+            //   background-repeat: no-repeat;
+            // }
           }
 
           ul {
@@ -829,15 +829,15 @@
                 width: 8px;
               }
 
-              &::before {
-                position: absolute;
-                content: "";
-                width: 20px;
-                height: 20px;
-                left: -24px;
-                background-image: url(/img/flag-icon.png);
-                background-repeat: no-repeat;
-              }
+              // &::before {
+              //   position: absolute;
+              //   content: "";
+              //   width: 20px;
+              //   height: 20px;
+              //   left: -24px;
+              //   // background-image: url(/img/flag-icon.png);
+              //   background-repeat: no-repeat;
+              // }
             }
             &.nice-select:after {
               border-bottom: 2px solid #1e266d;

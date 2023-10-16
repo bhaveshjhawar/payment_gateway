@@ -1,116 +1,55 @@
 export const navData = [
   {
-    id: "au@2331",
+    // id: "au@2331",
+    id: "du@016s",
+    // itm: "Home",
     itm: "Home",
-    url: "#",
-    dropdown: true,
-    dropdown_itms: [
-      {
-        id: "du@011s",
-        dp_itm: "Home 1",
-        url: "/",
-      },
-      {
-        id: "du@012s",
-        dp_itm: "Home 2",
-        url: "/index-2",
-      },
-      {
-        id: "du@013s",
-        dp_itm: "Home 3",
-        url: "/index-3",
-      },
-      {
-        id: "du@014s",
-        dp_itm: "Home 4",
-        url: "/index-4",
-      },
-      {
-        id: "du@015s",
-        dp_itm: "Home 5",
-        url: "/index-5",
-      },
-      {
-        id: "du@016s",
-        dp_itm: "Home 6",
-        url: "/index-6",
-      },
-      {
-        id: "du@017s",
-        dp_itm: "Home 7",
-        url: "/index-7",
-      },
-      {
-        id: "du@018s",
-        dp_itm: "Home 8",
-        url: "/index-8",
-      },
-      {
-        id: "du@019s",
-        dp_itm: "Home 9",
-        url: "/index-9",
-      },
-      {
-        id: "du@020s",
-        dp_itm: "Home 10",
-        url: "/index-10",
-      },
-      {
-        id: "du@021s",
-        dp_itm: "Home 11",
-        url: "/index-11",
-      },
-    ],
-  },
-  {
-    id: "au@2380361",
-    itm: "Send",
-    url: "/index-4",
+    url: "/index-6",
     dropdown: false,
   },
   {
-    id: "au@2380362",
-    itm: "Receive",
-    url: "/index-5",
+    id: "au@2380361",
+    itm: "Send-Recieve",
+    url: "/index-4",
     dropdown: false,
   },
   {
     id: "au@23831",
     itm: "Blog",
-    url: "#",
-    dropdown: true,
-    dropdown_itms: [
-      {
-        id: "du@0210s",
-        dp_itm: "Blog 1",
-        url: "/blog",
-      },
-      {
-        id: "du@022s",
-        dp_itm: "Blog 2",
-        url: "/blog-2",
-      },
-      {
-        id: "du@023s",
-        dp_itm: "Blog 3",
-        url: "/blog-3",
-      },
-      {
-        id: "du@024s",
-        dp_itm: "Blog 4",
-        url: "/blog-4",
-      },
-      {
-        id: "du@025s",
-        dp_itm: "Blog Single 1",
-        url: "/blog-single",
-      },
-      {
-        id: "du@026s",
-        dp_itm: "Blog Single 2",
-        url: "/blog-single-2",
-      },
-    ],
+    url: "/blog-4",
+    dropdown: false,
+    // dropdown_itms: [
+    //   {
+    //     id: "du@0210s",
+    //     dp_itm: "Blog 1",
+    //     url: "/blog",
+    //   },
+    //   {
+    //     id: "du@022s",
+    //     dp_itm: "Blog 2",
+    //     url: "/blog-2",
+    //   },
+    //   {
+    //     id: "du@023s",
+    //     dp_itm: "Blog 3",
+    //     url: "/blog-3",
+    //   },
+    //   {
+    //     id: "du@024s",
+    //     dp_itm: "Blog 4",
+    //     url: "/blog-4",
+    //   },
+    //   {
+    //     id: "du@025s",
+    //     dp_itm: "Blog Single 1",
+    //     url: "/blog-single",
+    //   },
+    //   {
+    //     id: "du@026s",
+    //     dp_itm: "Blog Single 2",
+    //     url: "/blog-single-2",
+    //   },
+    // ],
   },
   {
     id: "au@238361",

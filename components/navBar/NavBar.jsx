@@ -7,10 +7,10 @@ import lang from "/public/img/lang.png";
 import logo from "/public/img/logo.png";
 
 const langSelector = [
-  { id: 1, name: "EN" },
-  { id: 2, name: "BN" },
-  { id: 3, name: "ES" },
-  { id: 4, name: "NL" },
+  { id: 1, name: "EN", icon:"/img/lang.png" },
+  { id: 2, name: "BN", icon:"/img/lang.png" },
+  { id: 3, name: "ES", icon:"/img/lang.png" },
+  { id: 4, name: "NL", icon:"/img/lang.png" },
 ];
 
 const NavBar = () => {
@@ -69,7 +69,7 @@ const NavBar = () => {
                         <li className="nav-item" key={id}>
                           <Link
                             className="nav-link"
-                            href="/index-4"
+                            href={url}
                             onClick={hidenMenu}
                           >
                             {itm}
@@ -79,7 +79,7 @@ const NavBar = () => {
                         <li className="nav-item dropdown" key={id}>
                           <Link
                             className="nav-link dropdown-toggle"
-                            href="/"
+                            href={url}
                             role="button"
                             data-bs-toggle="dropdown"
                           >
@@ -123,7 +123,7 @@ const NavBar = () => {
                 </ul>
                 <div className="right-area header-action d-flex align-items-center">
                   <div className="lang d-flex align-items-center">
-                    <Image src={lang} alt="icon" />
+                  {/* <Image src={lang} alt="icon" /> */}
                     {/* Select */}
                     <Select data={langSelector} />
                   </div>

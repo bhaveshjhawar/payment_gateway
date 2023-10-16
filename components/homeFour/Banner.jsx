@@ -3,13 +3,21 @@ import Link from "next/link";
 import Select from "../common/Select";
 import info_icon from "/public/img/info_icon.png";
 import logo_index4 from "/public/img/logo-index4.png";
+// import Select from "@mui/material/Select";
+// import MenuItem from '@mui/material/MenuItem';
 
 const currency = [
-  { id: 1, name: "USD" },
-  { id: 2, name: "GBP" },
+  { id: 1, name: "USD", exc: 123456, icon:"/img/usa-flag.png" },
+  { id: 2, name: "KWD", exc: 123456, icon:"/img/flag-icon-kwt.png" },
+  { id: 3, name: "GBP", exc: 123456, icon:"/img/uk-flag.png" },
+  { id: 4, name: "INR", exc: 123456, icon:"/img/flag-icon-ind.png" },
+  { id: 5, name: "EUR", exc: 123456, icon:"/img/flag-icon-eur.png" },
 ];
 
 const Banner = () => {
+  const currencyItems = currency.map((currencies) => (
+      <p>{currencies.exc}</p>
+  ));
   return (
     <section className="banner-section inner-banner index-4">
       <div className="overlay">
@@ -21,7 +29,7 @@ const Banner = () => {
                   <h1>A better way to send money</h1>
                   <p>Safe and affordable online money transfer service</p>
                   <Link href="/register-2" className="cmn-btn">
-                    Get Strart Now
+                    Get Start Now
                   </Link>
                 </div>
               </div>
@@ -46,7 +54,8 @@ const Banner = () => {
                         </div>
                         <div className="select-area">
                           {/* select */}
-                          <Select data={currency} />
+                         <Select data={currency} />
+                         
                         </div>
                       </div>
                       <div className="single-input d-flex align-items-center">
@@ -60,7 +69,7 @@ const Banner = () => {
                         </div>
                         <div className="select-area">
                           {/* select */}
-                          <Select data={currency} />
+                         <Select data={currency} />
                         </div>
                       </div>
                     </div>
@@ -78,7 +87,7 @@ const Banner = () => {
                               </span>
                             </span>
                           </span>{" "}
-                          <span>1.37310</span>
+                          <span>{currencyItems[1]}</span>
                         </li>
                       </ul>
                     </div>
@@ -95,6 +104,7 @@ const Banner = () => {
       <div className="illu-area wow fadeInLeft"></div>
     </section>
   );
+                        
 };
 
 export default Banner;
